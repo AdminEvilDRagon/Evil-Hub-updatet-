@@ -15,7 +15,7 @@ local Fight in Train stationSection("Fight in Train station")
 
 
 MadCitySection:NewButton("Mad City", "Mad City", function(v)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/Madcity/main/MadCity.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/New-UI/main/new%20ui.lua", true))()
 end)
 
 
