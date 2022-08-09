@@ -8,7 +8,7 @@ local CrazyPetSimulatorSection =  Tab:NewSection("Crazy Pet Simulator")
 local Tab = Window:NewTab("Batting Champions!")
 local BattingChampionsSection =  Tab:NewSection("Batting Champions!")
 local Tab = Window:NewTab("Fight in Train station")
-local FightinTrainstationSection = tab:NewSection("Fight in Train station")
+local FightinTrainstationSection = Tab:NewSection("Fight in Train station")
 
 
 
@@ -31,4 +31,3 @@ end)
 FightinTrainstationSection:NewButton("Fight in Train station", "Fight in Train station", function(v)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/fight/main/fight.lua", true))()
 end)
-
