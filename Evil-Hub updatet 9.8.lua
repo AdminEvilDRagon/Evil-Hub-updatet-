@@ -9,6 +9,8 @@ local Tab = Window:NewTab("Batting Champions!")
 local BattingChampionsSection =  Tab:NewSection("Batting Champions!")
 local Tab = Window:NewTab("Fight in Train station")
 local FightinTrainstationSection = Tab:NewSection("Fight in Train station")
+local Tab = Window:NewTab("Drinking Simulator")
+local DrinkingSimulatorSection = Tab:NewSection("Drinking Simulator")
 
 
 
@@ -31,3 +33,7 @@ end)
 FightinTrainstationSection:NewButton("Fight in Train station", "Fight in Train station", function(v)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/fight/main/fight.lua", true))()
 end)
+
+DrinkingSimulatorSection:NewButton("Drinking Simulator", "Drinking Simulator", function(v)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/Drinking-Simulator/main/Drinking%20Simulator.lua", true))()
+        end)
