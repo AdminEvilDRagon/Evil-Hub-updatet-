@@ -17,7 +17,7 @@ local DrinkingSimulatorSection = Tab:NewSection("Drinking Simulator")
 
 
 MadCitySection:NewButton("Mad City", "Mad City", function(v)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/Evil-Hub-Updated/main/Evil-Hub-Updated%20obfusecated.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/New-Update/main/Update%20New.lua", true))()
 end)
 
 
